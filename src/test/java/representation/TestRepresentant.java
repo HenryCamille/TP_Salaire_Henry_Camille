@@ -82,6 +82,12 @@ public class TestRepresentant {
 		}
 
 	}
+        
+        @Test
+                
+        public void testgetNumero(){
+            assertEquals(36,r.getNumero(), "ce n'est pas le bon numéro");
+        }
 	
 	
 }
