@@ -89,5 +89,14 @@ public class TestRepresentant {
             assertEquals(36,r.getNumero(), "ce n'est pas le bon numéro");
         }
 	
-	
+        
+        @Test
+        
+        public void testgetNom() {
+            assertEquals("Bastide", r.getNom(), "ced n'est pas le bon nom");
+            
+        }
+        
+        
+        
 }

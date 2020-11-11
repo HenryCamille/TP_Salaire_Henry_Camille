@@ -7,7 +7,7 @@ public class Representant {
 	private final String prenom;
 	private String adresse;
 	private float salaireFixe;
-        private float[] CA;
+        private final float [] CA = new float [12];
         private ZoneGeographique secteur;
 
 	public Representant(int numero, String nom, String prenom, ZoneGeographique secteur) {
@@ -15,6 +15,7 @@ public class Representant {
 		this.nom = nom;
 		this.prenom = prenom;
                 this.secteur = secteur;
+                
 	}
 
 	public int getNumero() {
